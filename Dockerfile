@@ -1,8 +1,8 @@
-FROM 5hojib/luna:latest
+FROM 5hojib/saba:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
+
 COPY . .
-EXPOSE 80
 CMD ["bash", "start.sh"]
